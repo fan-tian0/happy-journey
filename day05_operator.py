@@ -153,3 +153,4 @@ a = 12
 b = 10
 result = (( a + b ) if (a > b) else (a - b))
 print(result)
+print(True)
