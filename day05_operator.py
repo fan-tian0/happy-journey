@@ -49,3 +49,32 @@ a = -123
 a %= 10
 print(a)
 print('123')
+
+
+'''
+    2、计较运算符
+    ==
+    !=
+    <=
+    >=
+    <
+    >
+    is
+    is not
+'''
+
+n1 = 8
+n2 = 8
+result = n1 > n2
+print('n1 > n2',result)
+
+m1 = 'hello'
+m2 = 'hello'
+result = m1 == m2
+print('m1 == m2 ',result)
+
+#验证信息
+username = input('输入用户名:')
+uname = 'abmi123'
+result = username == uname
+print('用户验证成功：',result)
