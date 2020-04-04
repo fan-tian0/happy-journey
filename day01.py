@@ -29,7 +29,7 @@ a = 12
 A = 89
 print(a, type(a))
 print(A, type(A))
-print('a',type('a'))
-print("a",type("a"))
+print('a', type('a'))
+print("a", type("a"))
 
 print(keyword.kwlist)
